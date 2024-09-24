@@ -167,6 +167,8 @@ body {
   100% {transform: translate(-50%, -50%) rotate(-1turn); }
 }
 
+
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
@@ -178,7 +180,6 @@ header {
   /* background-size: cover; */
   background-position: center; /* Centraliza a imagem */
   z-index: -1;
-  min-height: 500px; /* Define uma altura mínima */
 }
 
 .navbar ul{
@@ -203,6 +204,7 @@ header {
   font-weight: bold;
   color: white;
   margin: 10px;
+  border-bottom: 1px solid transparent;
 }
 
 .navbar ul button > span{
